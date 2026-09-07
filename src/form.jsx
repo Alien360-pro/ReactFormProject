@@ -95,7 +95,7 @@ function Form() {
         Email:- <input type="email" name="email" value={data.email} onChange={set} />
         <p style={{ color: "red" }}>{email && "Please Fill The Details"}</p>
         <br />
-        Addres:- <input type="text" name="addres" value={data.addres} onChange={set} />
+        Address:- <input type="text" name="addres" value={data.addres} onChange={set} />
         <p style={{ color: "red" }}>{addres && "Please Fill The Details"}</p>
         <br />
         vehicle Id:- <input type="tele" name="vehicle" value={data.vehicle} onChange={set} />
@@ -110,7 +110,7 @@ function Form() {
             <br />
             Email:- {data.email}
             <br />
-            Addres:- {data.addres}
+            Address:- {data.addres}
             <br />
             Vehicle:- {data.vehicle}
             <br />
