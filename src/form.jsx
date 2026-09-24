@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useState } from "react"
-
+import './form.css'
 function Form() {
     let [data, setdata] = useState({
         name: "",
@@ -84,7 +84,7 @@ function Form() {
         .catch((err)=>console.log(err))
     }
 
-    return <div>
+    return <div className="a1">
         <h1>Registration From</h1>
         Name:- <input type="text" name="name" value={data.name} onChange={set} />
         <p style={{ color: "red" }}>{name && "Please Fill The Details"}</p>
