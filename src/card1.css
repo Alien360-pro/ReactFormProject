@@ -1,0 +1,55 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin: 30px auto;
+}
+.a1{
+    border: solid;
+    width: 250px;
+    min-height: 350px;
+    padding: 25px;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 2;
+    
+}
+
+h5 {
+    font-size: 22px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    color: gray;
+}
+button{
+    background-color: rgb(15, 241, 15);
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 250px;
+}
+h2{
+    color: black;
+}
+.a6{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(247, 240, 240);
+    border-top: solid rgb(226, 221, 221);
+    border-bottom: solid rgb(226, 221, 221);
+}
+p{
+    color: black;
+}

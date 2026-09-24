@@ -1,3 +1,28 @@
+.c1{
+  margin-right: 720px;
+}
+.c2{
+  position: absolute;
+  margin-top: 116px;
+  margin-left: 425px;
+}
+.c3{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 116px;
+}
+.c4{
+  border: solid;
+  border-radius: 10px;
+  width: 110px;
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  position: absolute;
+  margin-left: 615px;
+  margin-top: 124px;
+}
+
 /* .counter {
   font-size: 16px;
   padding: 5px 10px;
